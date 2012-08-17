@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+tgrep/__init__.py
+tgrep/tgrep.py
+tgrep.egg-info/PKG-INFO
+tgrep.egg-info/SOURCES.txt
+tgrep.egg-info/dependency_links.txt
+tgrep.egg-info/entry_points.txt
+tgrep.egg-info/not-zip-safe
+tgrep.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: tgrep
+Version: 0.1dev
+Summary: Time series grep with regular expression filtering
+Home-page: https://twitter.com/oh_rodr
+Author: Robb O'Driscoll
+Author-email: https://twitter.com/oh_rodr
+License: Apache 2.0
+Description: UNKNOWN
+Keywords: grep time regex
+Platform: UNKNOWN
