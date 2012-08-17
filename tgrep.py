@@ -5,7 +5,7 @@ Description:
     The search mechanism is basic, but syslog files aren't big.
 
 Author:
-    Robb O'Driscoll.  <rodr@twitter.com>
+    Robb O'Driscoll.  <https://twitter.com/oh_rodr>
     Twitter Security
 
 Copyright 2012 Twitter Inc.
@@ -29,9 +29,9 @@ parser.add_option('-z','--zip',
 parser.add_option('-x','--plaintext',
                   action='store_false', dest='zip',help='plaintext file?')
 parser.add_option('-e','--end',
-                  dest='end',help='end time to search')
+                  dest='end',help='end time to search: %b %d %H:%M:%S Feb 28 00:00:00 format')
 parser.add_option('-s','--start',
-                  dest='start',help='start time to search')
+                  dest='start',help='start time to search: %b %d %H:%M:%S Feb 28 00:00:00 format')
 
 parser.add_option('-f','--full',
                   action='store_true',dest='full',help='complete search?')
@@ -126,4 +126,4 @@ if __name__ == '__main__':
     else:
         with open(args[0],'r') as f:
             lines = getlines(f)
-    print lines
+    #print lines
