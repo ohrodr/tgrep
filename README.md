@@ -9,6 +9,11 @@ Current version: 0.0.1
 
 Find a log file to search, and pass the appropriate options.
 
+## Installation
+
+python setup.py install
+/usr/bin/tgrep --help 
+
 ## Contact
 
 In the remote possibility that there exist bugs in this code, please report them to:
